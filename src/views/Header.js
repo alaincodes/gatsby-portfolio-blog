@@ -24,7 +24,7 @@ const NavLink = styled.li`
   padding: 1rem;
   a {
     text-decoration: none;
-    color: #ff6100;
+    color: #a5aed5;
     &:hover {
       text-decoration: underline;
     }
@@ -44,11 +44,11 @@ const Article = styled.article`
     font-size: 1.2rem;
     text-align: center;
     strong {
-      color: #ff6100;
+      color: #a5aed5;
     }
   }
   h3 {
-    border-bottom: 1px solid #ff6100;
+    border-bottom: 1px solid #a5aed5;
   }
 `
 
@@ -107,7 +107,7 @@ const GridArticle = styled.div`
   grid-gap: 3rem;
   margin: 1rem auto;
   p {
-    color: #ff6100;
+    color: #a5aed5;
     font-size: 1rem;
   }
 `
@@ -117,13 +117,13 @@ const Newsletter = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgb(0, 34, 0);
+  background: #1f567a;
   height: 70vh;
   img {
     margin: 2rem auto;
   }
   button {
-    background: rgb(0, 34, 0);
+    background: #1f567a;
     border: 1px solid ghostwhite;
     padding: 0.7rem 2.5rem;
     color: ghostwhite;
@@ -176,75 +176,70 @@ const Header = () => (
     </Navbar>
     <Article>
       <p>
-        Welcome to <strong>Whispers & Giants</strong> a strategic design studio
-        helping teams during their innovation journeys
+        Lorem, ipsum. <strong>Lorem, ipsum.</strong> Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Nemo, culpa?
       </p>
       <h3>Our Services</h3>
     </Article>
     <SectionGrid>
       <GridContent>
         <img width="150" src={Exploreimg} alt="" />
-        <h2>Explore</h2>
-        <p>Uncover inspiring insights that provide strategic advantages</p>
+        <h2>Discover</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
       </GridContent>
       <GridContent>
         <img width="150" src={Imagineimg} alt="" />
-        <h2>Imagine</h2>
-        <p>Reframe challenges and imagine multiple future realities</p>
+        <h2>Build</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
       </GridContent>
       <GridContent>
         <img width="150" src={Transformimg} alt="" />
-        <h2>Transform</h2>
-        <p>
-          Impact your projects with strategic design coaching and consulting{" "}
-        </p>
+        <h2>Amazing</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed? </p>
       </GridContent>
     </SectionGrid>
     <MainForest>
       <p>
-        Hello, I am Pascal Wicht. I help design solutions for organisations to
-        survive in a multipolar world overwhelmed by large-scale problems that
-        refuse to disappear, and multiply rapidly.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic magni aut
+        dolore sequi fuga molestias in iure consectetur placeat ratione nisi
+        magnam tempora temporibus, amet quibusdam veritatis aliquid soluta ipsa!
       </p>
     </MainForest>
     <MainArticle>
-      <h2>Approach</h2>
-      <p>"A desk is a dangerous place from which to view the world."</p>
-      <p>— John Le Carre</p>
+      <h2>About</h2>
       <p>
-        "For every complex problem, there is an answer that is clear, simple,
-        and wrong."
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt,
+        incidunt?'
       </p>
-      <p>— H. L. Mencken</p>
+      <p>— John Doe</p>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit."</p>
+      <p>— Nemo</p>
       <GridArticle>
         <article>
           <p>
-            I provide the support to help my clients make sense of complexity,
-            move forward with clarity, and deliver quick results.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ex?
           </p>
           <p>
-            My explorations help you investigate the deep human stories and the
-            weak signals of change coming from your environment and shape the
-            insights that will guide you through it.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+            explicabo voluptatibus repudiandae laborum!
           </p>
           <p>
-            I design and facilitate workshops which provide enough latitude for
-            future imagination to flourish and enough time for the right
-            conversations to emerge.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            earum saepe totam eos possimus fuga. Quae.
           </p>
         </article>
         <article>
           <p>
-            Whether it’s time to generate new ideas or tackle complex problems,
-            I can help. I am used to conducting rapid deep dives in challenging
-            contexts, generating the rich qualitative reports that will shape
-            your strategy and help you to succeed.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, velit
+            doloribus quas tempore vel, sequi aut, quidem veniam cumque
+            laudantium non aliquid vero reprehenderit ipsam deserunt perferendis
+            voluptatem nisi mollitia?
           </p>
           <p>
-            My coaching helps you improve your design leadership skills and
-            cross-functional team management performance. I blend a reflective
-            and tailor-made approach with the foundational knowledge to help you
-            integrate the design framework into your business and projects.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            minima nostrum magnam delectus temporibus fugit illo modi alias, nam
+            tempora mollitia sint accusamus accusantium a aliquid non debitis
+            ullam reprehenderit.
           </p>
         </article>
       </GridArticle>
@@ -254,23 +249,23 @@ const Header = () => (
       <h2>Discover My Newsletter</h2>
       <button>Subscribre</button>
       <p>
-        This carefully curated newsletter is published on a bi-monthly basis to
-        inspire a critical point of view on emerging issues.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sed tenetur
+        ducimus debitis, vel excepturi velit facilis eius?
       </p>
     </Newsletter>
     <FooterGrid>
-      <h1>Whispers & Giants</h1>
+      <h1>Lorem, ipsum.</h1>
       <FooterGridContent>
         <div>
-          <p>Whispers & Giants Sàrl</p>{" "}
+          <p>Lorem, ipsum dolor.</p>{" "}
         </div>
         <div>
           <p>
-            Rue de Bourg 9 <br /> CP 7715 - 1002 <br /> Lausanne Switzerland
+            3 rue du Poulet <br /> CP 75005 - Paris <br /> France
           </p>
         </div>
         <div>
-          <p>info@whispersandgiants.com</p>{" "}
+          <p>lorem@ipsum.com</p>{" "}
         </div>
         <div>
           {" "}
