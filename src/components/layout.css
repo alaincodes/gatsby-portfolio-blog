@@ -620,3 +620,8 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+body {
+  background: rgb(0, 56, 0);
+  color: rgb(216, 58, 0);
+}
